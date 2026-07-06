@@ -1,8 +1,8 @@
-onlyBuiltDependencies:
-  - '@swc/core'
-  - esbuild
-  - simple-git-hooks
-  - unrs-resolver
+allowBuilds:
+  '@swc/core': true
+  esbuild: true
+  simple-git-hooks: true
+  unrs-resolver: true
 
 overrides:
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
