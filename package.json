@@ -74,7 +74,7 @@
     "vitest": "^4.0.0",
     "vitest-axe": "^0.1.0"
   },
-  "packageManager": "pnpm@11.11.0",
+  "packageManager": "pnpm@11.13.1",
   "engines": {
     "node": ">=22.0.0",
     "pnpm": "^11.8.0"
