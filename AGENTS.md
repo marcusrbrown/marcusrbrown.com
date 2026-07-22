@@ -103,6 +103,7 @@ pnpm test:e2e         # Playwright E2E tests
 - **E2E tests**: Playwright, config at `playwright.config.ts`, tests in `tests/e2e/`
 - **Coverage target**: 80%+ (statements, branches, functions, lines)
 - **Test location**: Unit tests in co-located `__tests__/` dirs; E2E in `tests/e2e/`
+- **Coverage**: `pnpm test --coverage`
 - **Run specific test**: `pnpm test -- src/hooks/UseScrollReveal.test.ts`
 - **Watch mode**: `pnpm test -- --watch`
 - **Full testing guide**: See `TESTING.md`
