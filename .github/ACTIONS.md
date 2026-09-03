@@ -9,7 +9,6 @@ This repository uses a comprehensive CI/CD pipeline with reusable actions for ef
 Runs on:
 
 - Pull requests to `main`
-- Pushes to non-`main` branches
 - Manual workflow dispatch
 
 **Jobs:**
@@ -20,7 +19,6 @@ Runs on:
 - **Build**: Production build validation
 - **Type Check**: TypeScript compilation validation
 - **Validate**: Security audit and dependency health checks
-- **Matrix Test**: Cross-platform testing (Ubuntu, Windows, macOS)
 - **Quality Gate**: Final validation and PR commenting
 
 ### 🚀 Deploy Workflow (`.github/workflows/deploy.yaml`)
@@ -45,7 +43,7 @@ A composite action that standardizes project setup across all workflows.
 **Features:**
 
 - ✅ Checkout with proper Git configuration
-- ✅ pnpm v10.13.1 setup (pinned version)
+- ✅ pnpm setup with automatic caching
 - ✅ Node.js v22 with automatic caching
 - ✅ Dependency installation with frozen lockfile
 - ✅ Configurable inputs for flexibility
@@ -152,13 +150,13 @@ The build analysis script (`scripts/analyze-build.ts`) generates:
 
 ### Core Actions Used
 
-- `actions/checkout@v4.2.2`: Repository checkout
-- `actions/setup-node@v4.4.0`: Node.js environment
-- `pnpm/action-setup@v4.1.0`: pnpm package manager
-- `actions/configure-pages@v5`: GitHub Pages setup
-- `actions/upload-artifact@v4.5.0`: Artifact management
-- `actions/upload-pages-artifact@v3.0.1`: Pages deployment
-- `actions/deploy-pages@v4.0.5`: Pages deployment
+- `actions/checkout`: Repository checkout
+- `actions/setup-node`: Node.js environment
+- `pnpm/action-setup`: pnpm package manager
+- `actions/configure-pages`: GitHub Pages setup
+- `actions/upload-artifact`: Artifact management
+- `actions/upload-pages-artifact`: Pages deployment
+- `actions/deploy-pages`: Pages deployment
 
 **Native GitHub CLI Integration:**
 
@@ -176,8 +174,6 @@ All actions are pinned to specific SHA hashes for security and reproducibility.
 on:
   pull_request:
     branches: [main]
-  push:
-    branches-ignore: [main]
   workflow_dispatch:
 ```
 
