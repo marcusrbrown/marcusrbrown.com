@@ -600,7 +600,7 @@ jobs:
             }}
 
       - name: Run Fro Bot
-        uses: fro-bot/agent@26fdb0b5b9a30aa9641a60cce99fe5d53af320c7 # v0.107.0
+        uses: fro-bot/agent@620a314e241ec2f4a72167eb1ad2c5a3a909cc86 # v0.111.0
         env:
           OPENCODE_PROMPT_ARTIFACT: 'true'
           IS_SUNDAY_UTC: ${{ steps.detect-sunday.outputs.is_sunday || 'false' }}
