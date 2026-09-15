@@ -6,7 +6,7 @@
 
 **marcusrbrown.com** — Personal brand site for Marcus R. Brown. Single-page React 19 portfolio deployed to GitHub Pages. Pure ESM, TypeScript strict, no routing.
 
-**Stack:** React 19 + Vite 7 + TypeScript 5.6+ + pnpm 10.30+ + Node 22+
+**Stack:** React 19 + Vite 7 + TypeScript 6.0+ + pnpm 11.8+ + Node 22+
 
 ## Structure
 
