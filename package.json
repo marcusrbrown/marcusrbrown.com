@@ -40,6 +40,10 @@
     ]
   },
   "prettier": "@bfra.me/prettier-config/120-proof",
+  "overrides": {
+    "fast-uri": ">=3.1.2",
+    "flatted": ">=3.4.2"
+  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -78,11 +82,5 @@
   "engines": {
     "node": ">=22.0.0",
     "pnpm": "^11.8.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "fast-uri": ">=3.1.2",
-      "flatted": ">=3.4.2"
-    }
   }
 }
