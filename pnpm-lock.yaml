@@ -8,7 +8,7 @@ overrides:
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
   ajv@>=7.0.0-alpha.0 <8.18.0: '>=8.18.0'
   basic-ftp@<5.2.0: '>=5.2.0'
-  brace-expansion: 5.0.9
+  brace-expansion: 5.0.12
   fast-uri: 3.1.7
   js-yaml@>=4.0.0 <4.1.1: '>=4.1.1'
   lodash-es@<=4.17.23: '>=4.18.0'
@@ -1242,8 +1242,8 @@ packages:
   birecord@0.1.2:
     resolution: {integrity: sha512-5PAPTTmMpMEb+GuMb5DebfBkipRGyIW9+gtwEBSoDA9xkhHILm04+hZQ702pMksu3d8YAuGkmgTzQWcKqTPScA==}
 
-  brace-expansion@5.0.9:
-    resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
+  brace-expansion@5.0.12:
+    resolution: {integrity: sha512-YovQ3rzhaLMIrDjNDMkNS01tea93qhEhG5xy8f6+R0l+dw3Ki+5sCoIoI942iuLZTHWogWktgwVDhU09iNEimQ==}
     engines: {node: 20 || >=22}
 
   browserslist@4.28.9:
@@ -3846,7 +3846,7 @@ snapshots:
 
   birecord@0.1.2: {}
 
-  brace-expansion@5.0.9:
+  brace-expansion@5.0.12:
     dependencies:
       balanced-match: 4.0.4
 
@@ -5090,7 +5090,7 @@ snapshots:
 
   minimatch@10.2.6:
     dependencies:
-      brace-expansion: 5.0.9
+      brace-expansion: 5.0.12
 
   mlly@1.8.2:
     dependencies:
