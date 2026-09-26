@@ -4,6 +4,9 @@ allowBuilds:
   simple-git-hooks: true
   unrs-resolver: true
 
+minimumReleaseAgeExclude:
+  - '@bfra.me/eslint-config@0.54.0'
+
 overrides:
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
   ajv@>=7.0.0-alpha.0 <8.18.0: '>=8.18.0'
