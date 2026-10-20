@@ -19,7 +19,7 @@ overrides:
   qs@>=6.7.0 <=6.14.1: '>=6.14.2'
   rollup@>=4.0.0 <4.59.0: '>=4.59.0'
   tmp@<=0.2.3: '>=0.2.4'
-  vite@>=7.0.0 <=7.3.4: '>=7.3.5'
+  vite@>=7.0.0 <=7.3.4: '>=8.3.3'
   ws@>=8.0.0 <8.21.0: '>=8.21.0'
 
 importers:
@@ -1108,7 +1108,7 @@ packages:
     resolution: {integrity: sha512-bti8ZAcvz4Lh6/e4Uk2k3aa1TiUXbbMsahuqOHvd3MveFTkKDZOA6wQVkpj7J/+tepX/wGfe+lsGh/t24HTXMQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      vite: '>=7.3.5'
+      vite: '>=8.3.3'
 
   '@vitest/coverage-v8@4.1.11':
     resolution: {integrity: sha512-8MVGEFnJIcdGjcbfKmeq8z0pZHH0JlVtoVZH9Q/qwUp6wyFnEJUBMrw9DCaj+ra3vShGmhavjalMIhPNxZAUcw==}
@@ -1142,7 +1142,7 @@ packages:
     resolution: {integrity: sha512-2XJVD55d1o5AZous5CCGKS74g/riOj9odEt2bQpCVZeblHyHdnMeFl4jl0XjU21stf4mbjUkew2eXQZt65g5CQ==}
     peerDependencies:
       msw: ^2.4.9
-      vite: '>=7.3.5'
+      vite: '>=8.3.3'
     peerDependenciesMeta:
       msw:
         optional: true
@@ -2659,7 +2659,7 @@ packages:
       '@vitest/ui': 4.1.11
       happy-dom: '*'
       jsdom: '*'
-      vite: '>=7.3.5'
+      vite: '>=8.3.3'
     peerDependenciesMeta:
       '@edge-runtime/vm':
         optional: true
