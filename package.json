@@ -41,7 +41,7 @@
   },
   "prettier": "@bfra.me/prettier-config/120-proof",
   "overrides": {
-    "fast-uri": ">=3.1.2",
+    "fast-uri": ">=3.1.9",
     "flatted": ">=3.4.2"
   },
   "dependencies": {
